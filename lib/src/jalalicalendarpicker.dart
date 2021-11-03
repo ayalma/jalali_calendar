@@ -467,8 +467,8 @@ class DayPicker extends StatelessWidget {
             currentPDate.month == getPearData.month &&
             currentPDate.day == day) {
           // The current day gets a different text color.
-          itemStyle =
-              themeData.textTheme.bodyText2.copyWith(color: themeData.colorScheme.secondary);
+          itemStyle = themeData.textTheme.bodyText2
+              .copyWith(color: themeData.colorScheme.secondary);
         } else if (getHolidy.isHoliday) {
           // The current day gets a different text color.
           itemStyle = themeData.textTheme.bodyText2.copyWith(color: Colors.red);
