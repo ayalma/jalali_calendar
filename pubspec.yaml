@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   persian_date: 
-    path: ../PersianDate
+    path: ./PersianDate
   flutter:
     sdk: flutter
   jiffy: ^4.1.0 
