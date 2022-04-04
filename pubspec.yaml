@@ -9,12 +9,13 @@ environment:
 
 dependencies:
   persian_date: 
-    path: ./PersianDate
+    git:
+      url: https://github.com/ayalma/jalali_calendar
+      path: PersianDate
   flutter:
     sdk: flutter
   jiffy: ^4.1.0 
-
-
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
